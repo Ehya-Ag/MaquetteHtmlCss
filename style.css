@@ -1,0 +1,178 @@
+body{
+    background-color: #f5F5F5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.contenaire{
+    background-color: #ffffff;
+    border-radius: 5px 5px 5px 5px;
+    display: flex;
+    flex-direction: row;
+    width: 1536px;
+    height: 1042px;
+
+}
+.gauche{
+    display: flex;
+    position: absolute;
+    margin-left: 768px;
+}
+.droite{
+    display: flex;
+    width: 50%;
+}
+.titre{
+    position: absolute;
+    align-items: center;
+    margin-left: 100px;
+    margin-top: 300px;
+}
+.image{
+    display: flex;
+    position: absolute;
+    width: 130px;
+    height: 10px;
+    margin-right: 100%;
+    margin-top: 600px;
+
+}
+.formulaire{
+    margin-top: 55%;
+    margin-left: 100px;
+    height: 404px;
+    width: 638px;
+    background-color: #ffffff
+}
+input[type="text"]{
+    margin-top: 45px;
+    border: 1px solid #f5F5F5;
+    box-shadow: 0 0 5px;
+    border-radius: 15px 15px 15px;
+    width: 100%;
+    height: 8%;
+}
+input[type="email"]{
+    margin-top: 45px;
+    border: 1px solid #f5F5F5;
+    box-shadow: 0 0 5px;
+    border-radius: 15px 15px 15px;
+    width: 100%;
+    height: 8%;
+}
+input[type="password"]{
+    margin-top: 45px;
+    border: 1px solid #f5F5F5;
+    box-shadow: 0 0 5px;
+    border-radius: 15px   15px 15px;
+    width: 100%;
+    height: 8%;
+}
+.formulaire label{
+    position: absolute;
+    margin: 15px;
+    margin-left: 0;
+
+}
+p{
+    position: absolute;
+    margin-left: 50px;
+    margin-bottom: 0px;
+    align-items: center;
+}
+#box{
+    /*check box */
+    border: none;
+    margin-top: 18px;
+}
+form #sign{
+    position: absolute;
+    margin-top: 65px;
+    width: 30%;
+    background-color: #3A5B22;
+    height: 35px;
+    color: #f5F5F5;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 15px 15px 15px;
+}
+.img{
+    position: relative;
+    margin-left: 0;
+
+    height: 40px;
+}
+#lien{
+    display: flex;
+    margin-top: 100px;
+    width: 1000px;
+    margin-left: 500px;
+
+}
+.google{
+    display: flex;
+    position: absolute;
+    margin-left: 360px;
+    border: 1px solid #ccc;
+    border-radius: 15px 15px 15px 15px;
+    color: #737373;
+    width: 280px;
+    text-align: center;
+
+
+}
+.apple{
+    display: flex;
+    position: absolute;
+    margin-left: 680px;
+    border: 1px solid #ccc;
+    border-radius: 15px 15px 15px 15px;
+    color: #737373;
+    width: 280px;
+
+    
+}
+/*Pour mon formulaire de sign */
+#s{
+    display: flex;
+    position: relative;
+    margin-top: 35px;
+    border: 1px solid #f5F5F5;
+    box-shadow: 0 0 5px;
+    border-radius: 8px 8px 8px;
+    margin-top: 40px;
+    width: 100%;
+    height: 10%;
+}
+#phrase{
+    width: 200%;
+    margin-top: 0;
+    margin-bottom: 3%;
+    margin-left: 0px;
+}
+.forget{
+    display: flex;
+    position: absolute;
+    margin-left: 580px;
+    margin-top: 505px;
+    color: blue;
+    text-decoration: none;
+}
+.selector{
+    display: flex;
+    position: absolute;
+    background-color: black;
+    width: 500px;
+    
+}
+#or{
+    display: flex;
+    position: absolute;
+    margin-left: 0;
+    margin-top: 750px;
+    border-bottom: 2px solid black;
+    margin-left: -400px;
+    
+}
