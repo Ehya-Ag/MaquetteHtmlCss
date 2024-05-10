@@ -218,6 +218,10 @@ form #sign{
     margin-left: 10px;
     text-decoration: none;
   }
+  #therms{
+    color: black;
+    text-decoration: underline;
+  }
   /*pour signup*/
   .separators {
     position: relative;
