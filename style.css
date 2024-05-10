@@ -136,8 +136,8 @@ form #sign{
     color: #737373;
     width: 280px;
     text-align: center;
+    background-color: #ffffff;
     
-
 
 }
 .apple{
@@ -149,8 +149,7 @@ form #sign{
     border-radius: 8px 8px 8px 8px;
     color: #737373;
     width: 280px;
-
-    
+    background-color: #ffffff;
 }
 /*Pour mon formulaire de sign */
 #s{
@@ -257,7 +256,7 @@ form #sign{
     width: 280px;
     text-align: center;
     align-items: center;
-
+    background-color: #ffffff;
 
 }
 .apples{
@@ -269,6 +268,7 @@ form #sign{
     border-radius: 8px 8px 8px 8px;
     color: #737373;
     width: 280px;
+    background-color: #ffffff;
 }
 #liens{
     display: flex;
@@ -281,4 +281,5 @@ form #sign{
     display: flex;
     align-items: center;
     text-align: center;
+    background-color: #ffffff;
 }
