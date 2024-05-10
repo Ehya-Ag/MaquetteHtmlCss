@@ -4,11 +4,11 @@ body{
     align-items: center;
     justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
-
+    margin-top: 100px;
 }
 .contenaire{
     background-color: #ffffff;
-    border-radius: 5px 5px 5px 5px;
+    border-radius: 15px 15px 15px 15px;
     display: flex;
     flex-direction: row;
     width: 1536px;
@@ -28,7 +28,7 @@ body{
     position: absolute;
     align-items: center;
     margin-left: 100px;
-    margin-top: 300px;
+    margin-top: 200px;
 }
 .image{
     display: flex;
@@ -40,41 +40,45 @@ body{
 
 }
 .formulaire{
-    margin-top: 55%;
+    margin-top: 35%;
     margin-left: 100px;
     height: 404px;
     width: 638px;
     background-color: #ffffff
 }
 input[type="text"]{
-    margin-top: 45px;
+    margin-top: 55px;
     border: 1px solid #f5F5F5;
     box-shadow: 0 0 5px;
     border-radius: 15px 15px 15px;
-    width: 100%;
-    height: 8%;
+    width: 200%;
+    height: 10%;
 }
 input[type="email"]{
-    margin-top: 45px;
+    margin-top: 55px;
     border: 1px solid #f5F5F5;
     box-shadow: 0 0 5px;
     border-radius: 15px 15px 15px;
-    width: 100%;
-    height: 8%;
+    width: 200%;
+    height: 10%;
 }
 input[type="password"]{
-    margin-top: 45px;
+    margin-top: 55px;
     border: 1px solid #f5F5F5;
     box-shadow: 0 0 5px;
     border-radius: 15px   15px 15px;
-    width: 100%;
-    height: 8%;
+    width: 200%;
+    height: 10%;
 }
 .formulaire label{
     position: absolute;
-    margin: 15px;
+    margin-top: 29px;
     margin-left: 0;
 
+}
+h2{
+    margin-top: -60px;
+    margin-bottom: 20px;
 }
 p{
     position: absolute;
@@ -89,14 +93,15 @@ p{
 }
 form #sign{
     position: absolute;
-    margin-top: 65px;
-    width: 30%;
+    margin-top: 60px;
+    margin-left: -20px;
+    width: 33%;
     background-color: #3A5B22;
     height: 35px;
     color: #f5F5F5;
     font-size: 20px;
     font-family: 'Courier New', Courier, monospace;
-    border-radius: 15px 15px 15px;
+    border-radius: 15px 15px 15px 15px;
 }
 .img{
     position: relative;
@@ -106,7 +111,7 @@ form #sign{
 }
 #lien{
     display: flex;
-    margin-top: 100px;
+    margin-top: -50px;
     width: 1000px;
     margin-left: 500px;
 
@@ -115,8 +120,9 @@ form #sign{
     display: flex;
     position: absolute;
     margin-left: 360px;
+    margin-top: -150px;
     border: 1px solid #ccc;
-    border-radius: 15px 15px 15px 15px;
+    border-radius: 8px 8px 8px 8px;
     color: #737373;
     width: 280px;
     text-align: center;
@@ -127,8 +133,9 @@ form #sign{
     display: flex;
     position: absolute;
     margin-left: 680px;
+    margin-top: -150px;
     border: 1px solid #ccc;
-    border-radius: 15px 15px 15px 15px;
+    border-radius: 8px 8px 8px 8px;
     color: #737373;
     width: 280px;
 
@@ -136,15 +143,21 @@ form #sign{
 }
 /*Pour mon formulaire de sign */
 #s{
-    display: flex;
+    /*display: flex;
     position: relative;
     margin-top: 35px;
     border: 1px solid #f5F5F5;
     box-shadow: 0 0 5px;
     border-radius: 8px 8px 8px;
     margin-top: 40px;
-    width: 100%;
-    height: 10%;
+    width: 200%;
+    height: 10%;*/
+    margin-top: 55px;
+    border: 1px solid #f5F5F5;
+    box-shadow: -2px -2px 2px #ccc;
+    border-radius: 8px  8px 8px;
+    width: 200%;
+    height: 11%;
 }
 #phrase{
     width: 200%;
@@ -156,23 +169,100 @@ form #sign{
     display: flex;
     position: absolute;
     margin-left: 580px;
-    margin-top: 505px;
+    margin-top: 400px;
     color: blue;
     text-decoration: none;
 }
-.selector{
+/*Separator*/
+.separator {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .line {
+    position: absolute;
+    display: flex   ;
+    margin-top: 200px;
+    margin-left: -350px;
+    height: 2px;
+    width: 165%;
+    background-color: #ccc;
+  }
+  
+  .or {
+    position: absolute;
+    margin-top: 200px;
+    margin-left: -350px;
+    transform: translateX(-50%);
+    padding: 0 10px;
+    background-color: white;
+  }
+  #policy{
+    margin-left: 20px;
+  }
+  a{
+    color: blue;
+    margin-left: 10px;
+    text-decoration: none;
+  }
+  /*pour signup*/
+  .separators {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .lines {
+    position: absolute;
+    display: flex   ;
+    margin-top: 400px;
+    margin-left: -350px;
+    height: 2px;
+    width: 165%;
+    background-color: #ccc;
+  }
+  
+  .ors {
+    position: absolute;
+    margin-top: 400px;
+    margin-left: -350px;
+    transform: translateX(-50%);
+    padding: 0 10px;
+    background-color: white;
+  }
+  .googles{
     display: flex;
     position: absolute;
-    background-color: black;
-    width: 500px;
-    
+    margin-left: 360px;
+    margin-top: -60px;
+    border: 1px solid #ccc;
+    border-radius: 8px 8px 8px 8px;
+    color: #737373;
+    width: 280px;
+    text-align: center;
+
+
 }
-#or{
+.apples{
     display: flex;
     position: absolute;
-    margin-left: 0;
-    margin-top: 750px;
-    border-bottom: 2px solid black;
-    margin-left: -400px;
-    
+    margin-left: 680px;
+    margin-top: -60px;
+    border: 1px solid #ccc;
+    border-radius: 8px 8px 8px 8px;
+    color: #737373;
+    width: 280px;
 }
+#liens{
+    display: flex;
+    margin-top: 30px;
+    width: 1000px;
+    margin-left: 500px;
+
+}
+  
